@@ -1,0 +1,40 @@
+{
+    "name": "jccdbytes/sms-kit",
+    "description": "A simple library for sending sms using a API.",
+    "homepage": "https://github.com/jccd-dev/sms-kit",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jccdbytes\\SmsKit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jccdbytes\\SmsKit\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Carlo Digay",
+            "email": "jccd0724@gmail.com",
+            "homepage": "https://jccd.tech"
+        }
+    ],
+    "license": "MIT",
+    "keywords": ["sms", "api", "sms-library", "php", "library", "http", "onewaysms"],
+    "support": {
+        "issues": "https://github.com/jccd-dev/sms-kit/issues",
+        "email": "jccd0724@gmail.com"
+    },
+    "require": {
+        "php": "^7.1 || ^8.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+    
+}
